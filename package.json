@@ -1,0 +1,44 @@
+{
+  "name": "express-boilerplate",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is a boilerplate for a express.js app.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timon-D3v/express-boilerplate.git"
+  },
+  "keywords": [
+    "template",
+    "express",
+    "expressjs",
+    "app",
+    "webapp",
+    "node",
+    "nodejs",
+    "web"
+  ],
+  "author": "Timon Fiedler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Timon-D3v/express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Timon-D3v/express-boilerplate#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "morgan": "^1.10.0",
+    "timonjs": "^1.0.2"
+  }
+}
